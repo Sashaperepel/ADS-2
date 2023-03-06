@@ -33,6 +33,7 @@ double expn(double x, uint16_t count) {
     value = calcItem(x, i) + value;
   }
   return value;
+}
 
 double sinn(double x, uint16_t count) {
   double value = 0;
