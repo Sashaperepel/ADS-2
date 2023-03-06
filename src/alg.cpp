@@ -8,14 +8,16 @@ double pown(double value, uint16_t n) {
   for (int i = 1; i < n; ++i) {
     value = value * temp;
   }
-  if (n == 0)
+  if (n == 0) {
     value = 1;
+  }
   return value;
 }
 
 uint64_t fact(uint16_t n) {
-  if (n <= 1)
+  if (n <= 1) {
     return 1;
+  }
   return n * fact(n - 1);
 }
 
